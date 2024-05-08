@@ -1,0 +1,32 @@
+{
+  "private": false,
+  "name": "@toxictoast/azkaban-base-domain",
+  "version": "0.0.1",
+  "description": "Base Helpers for my Azkaban Services",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "run": "ts-node src/index.ts",
+    "build": "tsup"
+  },
+  "author": "ToxicToast <info@toxictoast.de> (https://blog.toxictoast.de/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@toxictoast/azkaban-base-types": "^0.0.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToxicToast/Azkaban-Base-Domain.git"
+  },
+  "dependencies": {
+    "zod": "^3.23.7"
+  }
+}
