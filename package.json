@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@toxictoast/azkaban-base-domain",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base Helpers for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "run": "ts-node src/index.ts",
-    "build": "tsup"
+    "build": "tsup",
+    "release": "npm publish --access public"
   },
   "author": "ToxicToast <info@toxictoast.de> (https://blog.toxictoast.de/)",
   "license": "ISC",
